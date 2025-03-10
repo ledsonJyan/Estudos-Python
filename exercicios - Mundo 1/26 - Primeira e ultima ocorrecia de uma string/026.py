@@ -1,0 +1,7 @@
+f=input('Digite uma frase:').upper()
+c=f.count('A')
+e=f.find('A')
+u=f.rfind('A')
+print('Na frase tem: {} letra (a)'.format(c))
+print('A primeira letra (a) aparace na posição: {}'.format(e) )
+print('A ultima posição da letra (a) é: {}'.format(u))

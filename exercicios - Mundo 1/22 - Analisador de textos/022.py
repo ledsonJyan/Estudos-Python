@@ -1,0 +1,11 @@
+n = input('Coloque seu nome completo: ')  
+s1 = n.upper() 
+s2 = n.lower()  
+s3 = n.replace(' ', '')  
+s31 = len(s3)  
+s4 = n.split()[0]  
+s41 = len(s4) 
+print('Nome em maiúsculo: {}'.format(s1))
+print('Nome em minúsculo: {}'.format(s2))
+print('Quantidade de letras (sem espaços): {}'.format(s31))
+print('Quantidade de letras do primeiro nome: {}'.format(s41))
